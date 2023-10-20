@@ -1,6 +1,6 @@
 {
   "obfuscatedaccessibility.midnightconfig.title": "Obfuscated Accessibility",
   "obfuscatedaccessibility.midnightconfig.immediate": "Changes are applied immediately",
-  "obfuscatedaccessibility.midnightconfig.glyphspeed": "Glyph Speed",
+  "obfuscatedaccessibility.midnightconfig.glyphspeed": "Glyph Cycle Speed (milliseconds)",
   "obfuscatedaccessibility.midnightconfig.numspeed": "Higher numbers are slower"
 }
