@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "obfuscatedaccessibility",
+	"version": "${version}",
+	"name": "Obfuscated Accessibility",
+	"description": "Customize the flashing speed of obfuscated text",
+	"authors": [
+		"Andrew6rant (Andrew Grant)"
+	],
+	"contact": {
+		"sources": "https://github.com/Andrew6rant/ObfuscatedAccessibility"
+	},
+	"license": "MIT",
+	"icon": "assets/obfuscatedaccessibility/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+		],
+		"client": [
+			"io.github.andrew6rant.obfuscatedaccessibility.ObfuscatedAccessibilityClient"
+		]
+	},
+	"mixins": [
+      "obfuscatedaccessibility.mixins.json",
+		{
+			"config": "obfuscatedaccessibility.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": [
+			"1.20.x",
+			"1.19.x"
+		],
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
